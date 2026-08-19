@@ -195,7 +195,7 @@
                 </article>
 
                 <article class="product-card product-nova">
-                    <span class="product-tag">Snack time</span>
+                    <span class="product-tag">Snack Time!</span>
                     <div class="product-image">
                         <img src="nova.jpg" alt="Nova snack">
                     </div>
@@ -210,7 +210,7 @@
                 </article>
 
                 <article class="product-card product-piattos">
-                    <span class="product-tag">Snack time</span>
+                    <span class="product-tag">Snack Time!</span>
                     <div class="product-image">
                         <img src="piattos.jpg" alt="Piattos snack">
                     </div>
@@ -276,17 +276,6 @@
         <span>© 2024 • Made in the neighborhood</span>
     </footer>
 
-    <!-- Script -->
-    <script>
-        const cartCount = document.querySelector('#cart-count');
-        document.querySelectorAll('.add-button').forEach((button) => {
-            button.addEventListener('click', () => {
-                cartCount.textContent = Number(cartCount.textContent) + 1;
-                button.classList.add('added');
-                button.innerHTML = 'Added to basket <span>✓</span>';
-                setTimeout(() => button.classList.remove('added'), 900);
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
