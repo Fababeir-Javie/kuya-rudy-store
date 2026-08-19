@@ -264,14 +264,14 @@ h2 {
 
 .product-noodles .product-image { background: #e8efd8; }
 .product-yosi .product-image { background: #f4d9c9; }
-.product-gcash .product-image { background: #dceaf5; } 
-.product-load .product-image { background: #f0e6d2; }
-.product-seasoning .product-image { background: #f5f4f2; }
-.product-chippy .product-image { background: #f4e6d9; }
-.product-nova .product-image { background: #c93535; }
-.product-piattos .product-image { background: #197303; }
-.product-mangtomas .product-image { background: #f29e4f; }
-.product-rene .product-image { background: #00f915a9; }
+.product-gcash .product-image { background: #e4eff2; }
+.product-load .product-image { background: #f5e8c9; }
+.product-seasoning .product-image { background: #f1eadc; }
+.product-chippy .product-image { background: #f4dfcf; }
+.product-nova .product-image { background: #efd8d3; }
+.product-piattos .product-image { background: #dfe9d8; }
+.product-mangtomas .product-image { background: #f1e0ca; }
+.product-rene .product-image { background: #dfeae1; }
 
 .product-image img { 
     width: 82%; 
