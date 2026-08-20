@@ -432,7 +432,58 @@ footer strong {
 }
 
 /* =========================================
-   8. CUSTOM TARPAULIN LOGO
+   8. INFORMATION PAGES
+   ========================================= */
+.info-page {
+    max-width: 980px;
+    min-height: 560px;
+    margin: 10px auto 0;
+    padding: 90px 5vw 110px;
+}
+
+.info-page h1 {
+    max-width: 720px;
+    margin-bottom: 28px;
+    font-size: clamp(48px, 7vw, 82px);
+}
+
+.info-page h1 em {
+    color: var(--red);
+    font-style: normal;
+}
+
+.info-content {
+    max-width: 620px;
+    padding-left: 12%;
+    border-left: 3px solid var(--yellow);
+}
+
+.info-content p {
+    margin: 0 0 20px;
+    color: #52635a;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.contact-details {
+    display: grid;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.contact-details a {
+    color: var(--green);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    color: var(--red);
+}
+
+/* =========================================
+   9. CUSTOM TARPAULIN LOGO
    ========================================= */
 .tarp-logo {
     display: flex;
@@ -579,7 +630,7 @@ footer strong {
 }
 
 /* =========================================
-   9. MOBILE RESPONSIVENESS
+    10. MOBILE RESPONSIVENESS
    ========================================= */
 @media (max-width: 700px) {
     .announcement { 
@@ -602,6 +653,15 @@ footer strong {
         min-height: auto; 
         gap: 20px; 
         padding: 25px 6vw 80px; 
+    }
+
+    .info-page {
+        min-height: auto;
+        padding: 65px 6vw 85px;
+    }
+
+    .info-content {
+        padding-left: 22px;
     }
 
     .hero-copy { 
