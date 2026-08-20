@@ -95,13 +95,22 @@
                     <span class="product-tag">Best seller</span>
                     <div class="product-image">
                         <!-- Updated Image path -->
-                        <img src="images/nescafe.jpg" alt="Nescafe Creamy White 3-in-1">
+                        <img src="images/nescafe/creamywhite.jpg" alt="Nescafe Creamy White 3-in-1">
                     </div>
+                    <h3 class="variant-name">Nescafe Creamy White</h3>
+                    <p>instant coffees</p>
                     <div class="product-info">
                         <div>
-                            <h3>Nescafe Creamy White</h3>
-                            <p>3-in-1 instant coffee</p>
+                            <label class="variant-label" for="nescafe-variant">Flavor</label>
+                            <select id="nescafe-variant" class="variant-select" name="nescafe-variant">
+                                <option value="creamywhite" data-image="images/nescafe/creamywhite.jpg" data-product-name="Nescafe Creamy White">Creamy White</option>
+                                <option value="classic" data-image="images/nescafe/classic.jpg" data-product-name="Nescafe Classic">Classic</option>
+                                <option value="creamylatte" data-image="images/nescafe/creamylatte.jpg" data-product-name="Nescafe Creamy Latte">Creamy Latte</option>
+                                <option value="brown-single" data-image="images/nescafe/Nescafe-Brown-Single.png" data-product-name="Nescafe Brown Coffee">Brown Coffee</option>
+                                <option value="original" data-image="images/nescafe/original.jpg" data-product-name="Nescafe Original">Original</option>
+                            </select>
                         </div>
+                        
                         <strong class="price">₱15.00</strong>
                     </div>
                     <button class="add-button" type="button">Add to basket <span>+</span></button>
@@ -111,28 +120,43 @@
                     <span class="product-tag">Merienda pick</span>
                     <div class="product-image">
                         <!-- Updated Image path -->
-                        <img src="images/pancit.jpg" alt="Lucky Me instant noodles">
+                        <img src="images/pancit canton/pancit.jpg" alt="Lucky Me instant noodles">
                     </div>
+                    <h3 class="variant-name">Lucky Me Pancit Canton</h3>
+                    <p>Instant Noodles for busy days</p>
                     <div class="product-info">
                         <div>
-                            <h3>Lucky Me! Pancit Canton</h3>
-                            <p>Instant noodles for busy days</p>
+                            <label class="variant-label" for="noodles-variant">Flavor</label>
+                            <select id="noodles-variant" class="variant-select" name="Pancit Canton-variant">
+                                <option value="Calamansi" data-image="images/pancit canton/pancit.jpg" data-product-name="Lucky Me Pancit Canton Calamansi">Pancit Canton Calamansi</option>
+                                <option value="Chilimansi" data-image="images/pancit canton/chilimansi.jpg" data-product-name="Lucky Me Pancit Canton Chilimansi">Pancit Canton Chilimansi</option>
+                                <option value="Extrahot" data-image="images/pancit canton/extrahot.jpg" data-product-name="Lucky Me Pancit Canton Extra Hot">Pancit Canton Extra Hot</option>
+                                <option value="Original" data-image="images/pancit canton/Original.jpg" data-product-name="Lucky Me Pancit Canton Original">Pancit Canton Original</option>
+                                <option value="SweetSpicy" data-image="images/pancit canton/sweetspicy.jpg" data-product-name="Lucky Me Pancit Canton Sweet & Spicy">Pancit Canton Sweet & Spicy</option>
+                            </select>
                         </div>
                         <strong class="price">₱15.00</strong>
                     </div>
                     <button class="add-button" type="button">Add to basket <span>+</span></button>
                 </article>
 
-                    <article class="product-card product-yosi">
+                <article class="product-card product-yosi">
                     <span class="product-tag">Neighborhood staple</span>
                     <div class="product-image">
                         <!-- Updated Image path -->
-                        <img src="images/yosi.jpg" alt="Yosi cigarette pack">
+                        <img src="images/marlboro/red.jpg" alt="Yosi cigarette pack">
                     </div>
+                    <h3 class="variant-name">Marlboro Red</h3>
+                    <p>A familiar everyday choice</p>
                     <div class="product-info">
                         <div>
-                            <h3>Yosi Cigarette</h3>
-                            <p>A familiar everyday choice</p>
+                            <label class="variant-label" for="yosi-variant">Variant</label>
+                            <select id="yosi-variant" class="variant-select" name="Marlboro-variant">
+                                <option value="Red" data-image="images/marlboro/red.jpg" data-product-name="Marlboro Red">Marlboro Red</option>
+                                <option value="Gold" data-image="images/marlboro/gold.jpg" data-product-name="Marlboro Gold">Marlboro Gold</option>
+                                <option value="Blue" data-image="images/marlboro/blue.png" data-product-name="Marlboro Blue">Marlboro Blue</option>
+                                <option value="Black" data-image="images/marlboro/black.png" data-product-name="Marlboro Black">Marlboro Black</option>
+                            </select>
                         </div>
                         <strong class="price">₱11.00</strong>
                     </div>
@@ -191,13 +215,21 @@
                     <span class="product-tag">Snack time</span>
                     <div class="product-image">
                         <!-- Updated Image path -->
-                        <img src="images/Chippy chips!.jpg" alt="Chippy snack">
+                        <img src="images/chippy/bbq.jpg" alt="Chippy snack">
                     </div>
+                    <h3 class="variant-name">Chippy Barbeque Flavored Corned Chip</h3>
+                    <p>A crispy and flavorful snack</p>
                     <div class="product-info">
                         <div>
-                            <h3>Chippy Barbeque Flavored Corned Chip</h3>
-                            <p>A crispy and flavorful snack</p>
+                            <label class="variant-label" for="chippy-variant">Flavor</label>
+                            <select id="chippy-variant" class="variant-select" name="Chippy-variant">
+                                <option value="Barbeque" data-image="images/chippy/bbq.jpg" data-product-name="Chippy Barbeque Flavored Corned Chip">Barbeque</option>
+                                <option value="ChiliCheese" data-image="images/chippy/chilicheese.jpg" data-product-name="Chippy Chili Cheese Flavored Corned Chip">ChiliCheese</option>
+                                <option value="Garlic&Vinegar" data-image="images/chippy/garlic.jpg" data-product-name="Chippy Garlic&Vinegar Flavored Corned Chip">Garlic&Vinegar</option>
+                                <option value="less salt" data-image="images/chippy/less salt.jpg" data-product-name="Chippy Less Salt Flavored Corned Chip">Less Salt</option>
+                            </select>
                         </div>
+
                         <strong class="price">₱10.00</strong>
                     </div>
                     <button class="add-button" type="button">Add to basket <span>+</span></button>
@@ -207,13 +239,23 @@
                     <span class="product-tag">Snack Time!</span>
                     <div class="product-image">
                         <!-- Updated Image path -->
-                        <img src="images/nova.jpg" alt="Nova snack">
+                        <img src="images/nova/cheddar cheese.jpg" alt="Nova snack">
                     </div>
+                        <h3 class="variant-name">Nova Cheddar Cheese Flavored Chip</h3>
+                        <p>Novaaaaa!</p>
                     <div class="product-info">
                         <div>
-                            <h3>Nova Cheddar Flavored Chip</h3>
-                            <p>A cheesy and crispy snack</p>
+                         <label class="variant-label " for="nova-variant">Flavor</label>
+                            <select id="nova-variant" class="variant-select" name="Nova-variant">
+                                <option value="Cheddar Cheese" data-image="images/nova/cheddar cheese.jpg" data-product-name="Nova Cheddar Cheese Flavored Chip">Cheddar Cheese</option>
+                                <option value="Barbeque" data-image="images/nova/bbq.jpg" data-product-name="Nova Barbeque Flavored">Barbeque</option>
+                                <option value="Jalapeno" data-image="images/nova/jalapeno.png" data-product-name="Nova Jalapeno Flavored Chip">Jalapeno</option>
+                                <option value="Nacho Cheese" data-image="images/nova/nacho chees.jpg" data-product-name="Nova Nacho Cheese Flavored Chip">Nacho Cheese</option>
+                                <option value="Sweet Corn" data-image="images/nova/sweet corn.jpg" data-product-name="Nova Sweet Corn Flavored Chip">Sweet Corn</option>
+                                <option value="SweetChili" data-image="images/nova/sweetchili.png" data-product-name="Nova Sweet Chili Flavored Chip">SweetChili</option>
+                            </select>   
                         </div>
+                        
                         <strong class="price">₱13.00</strong>
                     </div>
                     <button class="add-button" type="button">Add to basket <span>+</span></button>
@@ -223,13 +265,22 @@
                     <span class="product-tag">Snack Time!</span>
                     <div class="product-image">
                         <!-- Updated Image path -->
-                        <img src="images/piattos.jpg" alt="Piattos snack">
+                        <img src="images/piattos/cheese.jpg" alt="Piattos snack">
                     </div>
+                        <h3 class="variant-name">Piattos Cheese Flavored Chip</h3>
+                        <p>Piattos!</p>
                     <div class="product-info">
                         <div>
-                            <h3>Piattos Sour & Cream Flavored Chip</h3>
-                            <p>A sour and crispy snack</p>
+                            <label class="variant-label" for="piattos-variant">Flavor</label>
+                            <select id="piattos-variant" class="variant-select" name="Piattos-variant">
+                                <option value="Cheese" data-image="images/piattos/cheese.jpg" data-product-name="Piattos Cheese Flavored Chip">Cheese</option>
+                                <option value="Sour&Cream" data-image="images/piattos/sourcream.jpg" data-product-name="Piattos Sour&Cream Flavored Chip">Sour & Cream</option>
+                                <option value="Redhouse Barbeque" data-image="images/piattos/redhouse bbq.jpg" data-product-name="Piattos Redhouse Barbeque Flavored Chip">RedhouseBarbeque</option>
+                                <option value="Roasted Beef" data-image="images/piattos/roast beef.jpg" data-product-name="Piattos Roasted Beef Flavored Chip">Roasted Beef</option>
+                                <option value="Nacho Pizza" data-image="images/piattos/nacho pizza.jpg" data-product-name="Piattos Nacho Pizza Flavored Chip">Nacho Pizza</option>
+                            </select>
                         </div>
+
                         <strong class="price">₱15.00</strong>
                     </div>
                     <button class="add-button" type="button">Add to basket <span>+</span></button>
